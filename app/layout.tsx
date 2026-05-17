@@ -31,7 +31,10 @@ export const metadata: Metadata = {
     siteName: 'Sitecraf',
   },
   icons: {
-    icon: '/sitecraf_favicon.png',
+    icon: [
+      { url: '/sitecraf_favicon.ico', sizes: 'any' },
+      { url: '/sitecraf_favicon.png', type: 'image/png' },
+    ],
     shortcut: '/sitecraf_favicon.png',
     apple: '/sitecraf_favicon.png',
   }
