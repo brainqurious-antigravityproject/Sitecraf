@@ -144,12 +144,33 @@ export default async function BlogPostPage(
     },
   }
 
+  const faqJsonLd = post.faqs && post.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: post.faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.q,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.a,
+          },
+        })),
+      }
+    : null
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <main className="flex flex-col min-h-screen bg-[#000000]">
         <section className="w-full pt-32 pb-12 px-6 bg-[color:var(--color-bg)]">
@@ -269,7 +290,7 @@ export default async function BlogPostPage(
         )}
 
         {post.faqs && post.faqs.length > 0 && (
-          <section aria-label="FAQ" className="w-full py-16 px-6 bg-[color:var(--color-surface)]">
+          <section aria-label="FAQ" className="w-full py-16 px-6 bg-[color:var(--color-bg)]">
             <div className="w-full md:w-[80%] max-w-4xl mx-auto">
               <div className="mb-10">
                 <span className="block text-[color:var(--color-primary)] text-[length:var(--text-xs)] uppercase tracking-widest mb-3">
