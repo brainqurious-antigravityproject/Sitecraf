@@ -5,34 +5,44 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: [
-          '/',
-          '/about',
-          '/services',
-          '/pricing',
-          '/blog',
-          '/privacy',
-          '/terms',
-        ],
-        disallow: [
-          '/api/',
-          '/_next/',
-          '/static/',
-        ],
+        allow: '/',
+        disallow: ['/api/', '/_next/', '/static/'],
       },
       {
-        userAgent: [
-          'GPTBot',
-          'ChatGPT-User',
-          'CCBot',
-          'anthropic-ai',
-          'Claude-Web',
-          'Google-Extended',
-          'PerplexityBot',
-          'Bytespider',
-          'Amazonbot',
-        ],
-        disallow: '/',
+        userAgent: 'GPTBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        allow: '/',
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+      },
+      {
+        userAgent: 'anthropic-ai',
+        allow: '/',
+      },
+      {
+        userAgent: 'Claude-Web',
+        allow: '/',
+      },
+      {
+        userAgent: 'CCBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Amazonbot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Bytespider',
+        allow: '/',
       },
     ],
     sitemap: 'https://sitecraf.com/sitemap.xml',
