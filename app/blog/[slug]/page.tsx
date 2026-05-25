@@ -61,6 +61,11 @@ const RELATED_POSTS: Record<string, string[]> = {
     'seo-cost-small-business-malaysia-india',
     'seo-aeo-geo-guide-for-small-business'
   ],
+  'how-much-does-a-website-cost-small-business-india': [
+    'seo-cost-small-business-malaysia-india',
+    '5-signs-your-website-is-costing-you-customers',
+    'wordpress-vs-nextjs-for-seo'
+  ],
 }
 
 const mdxComponents = {

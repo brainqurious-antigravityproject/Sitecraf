@@ -136,6 +136,18 @@ const posts = [
     seoTag: "High Intent",
     author: "Sitecraf",
     image: "/chatgptrecommendmycompetitor/chatgpt-recommended-competitor-not-me-hero.webp"
+  },
+  {
+    slug: "how-much-does-a-website-cost-small-business-india",
+    title: "How Much Does a Website Cost for Small Business in India?",
+    excerpt: "₹5,000 or ₹5,00,000? Website pricing in India is wildly inconsistent — not because designers are making up numbers, but because 'a website' means completely different things. Here's the honest breakdown by tier, with real numbers and red flags to watch for.",
+    category: "SEO",
+    readTime: "7 min read",
+    date: "May 2026",
+    featured: false,
+    seoTag: "High Intent",
+    author: "Sitecraf",
+    image: "/websitecostindia/website-cost-small-business-india-hero.webp"
   }
 ];
 
@@ -188,6 +200,7 @@ export default function BlogClient() {
     "seo-cost-small-business-malaysia-india": "See What You're Paying For →",
     "landing-page-vs-full-website": "Find the Right Starting Point →",
     "chatgpt-recommended-competitor-geo": "Get AI to Recommend You →",
+    "how-much-does-a-website-cost-small-business-india": "See the Full Breakdown →",
   };
 
   return (
