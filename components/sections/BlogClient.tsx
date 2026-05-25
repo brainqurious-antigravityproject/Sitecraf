@@ -147,7 +147,7 @@ const posts = [
     featured: false,
     seoTag: "High Intent",
     author: "Sitecraf",
-    image: "/websitecostindia/website-cost-small-business-india-hero.webp"
+    image: "/websitecostindia/website-cost-hero.webp"
   }
 ];
 
