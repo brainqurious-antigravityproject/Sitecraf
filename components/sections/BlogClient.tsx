@@ -148,6 +148,18 @@ const posts = [
     seoTag: "High Intent",
     author: "Sitecraf",
     image: "/websitecostindia/website-cost-hero.webp"
+  },
+  {
+    slug: "aeo-vs-seo",
+    title: "AEO vs SEO: Which Search Strategy Does Your Small Business Need?",
+    excerpt: "Google's 10 blue links are no longer the only game in town. Discover the critical differences between traditional SEO and AI answer engines, and learn how to optimize your business for both.",
+    category: "AEO",
+    readTime: "8 min read",
+    date: "May 2026",
+    featured: false,
+    seoTag: "AEO",
+    author: "Sitecraf",
+    image: "/aeo-vs-seo-2026-05-27/aeo-vs-seo-hero.webp"
   }
 ];
 
@@ -201,6 +213,7 @@ export default function BlogClient() {
     "landing-page-vs-full-website": "Find the Right Starting Point →",
     "chatgpt-recommended-competitor-geo": "Get AI to Recommend You →",
     "how-much-does-a-website-cost-small-business-india": "See the Full Breakdown →",
+    "aeo-vs-seo": "Compare SEO vs AEO →",
   };
 
   return (

@@ -24,7 +24,7 @@ const RELATED_POSTS: Record<string, string[]> = {
   'seo-aeo-geo-guide-for-small-business': [
     'what-is-aeo-answer-engine-optimization',
     'what-is-geo-generative-engine-optimization',
-    'why-most-small-business-websites-dont-rank'
+    'aeo-vs-seo'
   ],
   'seo-cost-small-business-malaysia-india': [
     'seo-aeo-geo-guide-for-small-business',
@@ -38,7 +38,7 @@ const RELATED_POSTS: Record<string, string[]> = {
   ],
   'what-is-aeo-answer-engine-optimization': [
     'what-is-geo-generative-engine-optimization',
-    'chatgpt-recommended-competitor-geo',
+    'aeo-vs-seo',
     'seo-aeo-geo-guide-for-small-business'
   ],
   'what-is-geo-generative-engine-optimization': [
@@ -65,6 +65,11 @@ const RELATED_POSTS: Record<string, string[]> = {
     'seo-cost-small-business-malaysia-india',
     '5-signs-your-website-is-costing-you-customers',
     'wordpress-vs-nextjs-for-seo'
+  ],
+  'aeo-vs-seo': [
+    'what-is-aeo-answer-engine-optimization',
+    'what-is-geo-generative-engine-optimization',
+    'seo-aeo-geo-guide-for-small-business'
   ],
 }
 
