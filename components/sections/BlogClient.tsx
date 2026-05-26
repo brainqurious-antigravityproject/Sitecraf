@@ -159,7 +159,7 @@ const posts = [
     featured: false,
     seoTag: "AEO",
     author: "Sitecraf",
-    image: "/aeo-vs-seo-2026-05-27/aeo-vs-seo-hero.webp"
+    image: "/aeo-vs-seo-2026-05-27/aeo-vs-seo-hero-light.webp"
   }
 ];
 
