@@ -3,7 +3,7 @@
 # Updated automatically after each blog publish
 # Agent MUST check this file before selecting any keyword
 
-Last updated: 2026-05-27
+Last updated: 2026-05-31
 
 ## Published Blog Topics (DO NOT reuse):
 - AEO vs SEO
@@ -19,12 +19,11 @@ Last updated: 2026-05-27
 - SEO cost for small business Malaysia and India
 - ChatGPT recommended competitor GEO strategy
 - 5 signs your website is costing you customers
-
+- How to optimize Google Business Profile for small business India
 ## Topics in PR / Under Review:
 (agent adds here when blog is committed, removes after merge)
 
 ## Topic Ideas Queue — Not Yet Used:
-- Google Business Profile for small business India
 - What is Core Web Vitals and why it matters
 - How to get more WhatsApp leads from your website
 - Local SEO for restaurants India
