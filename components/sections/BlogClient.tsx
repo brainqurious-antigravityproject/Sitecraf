@@ -160,6 +160,18 @@ const posts = [
     seoTag: "AEO",
     author: "Sitecraf",
     image: "/aeo-vs-seo-2026-05-27/aeo-vs-seo-hero-light.webp"
+  },
+  {
+    slug: "optimize-google-business-profile-india",
+    title: "How to Optimize Google Business Profile for Small Business India",
+    excerpt: "Your Google Business Profile is your digital storefront. If your competitor two streets down is getting all the foot traffic, their profile is probably optimized and yours isn't. Here's the exact step-by-step to fix that.",
+    category: "Local SEO",
+    readTime: "9 min read",
+    date: "May 2026",
+    featured: false,
+    seoTag: "Google Business Profile",
+    author: "Sitecraf Team",
+    image: "/optimize-google-business-profile-india/optimize-google-business-profile-india-hero.webp"
   }
 ];
 
@@ -169,6 +181,7 @@ const categories = [
   "AEO",
   "GEO",
   "Platforms",
+  "Local SEO",
 ];
 
 export default function BlogClient() {
@@ -214,6 +227,7 @@ export default function BlogClient() {
     "chatgpt-recommended-competitor-geo": "Get AI to Recommend You →",
     "how-much-does-a-website-cost-small-business-india": "See the Full Breakdown →",
     "aeo-vs-seo": "Compare SEO vs AEO →",
+    "optimize-google-business-profile-india": "Optimize Your Profile →",
   };
 
   return (
